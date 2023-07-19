@@ -12,7 +12,7 @@ let [visibile, setVisible] = useState(false)
       </button>
       {
         visibile && 
-        <p id="para">
+        <p id="para" className="show">
         "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
         </p>
       }
