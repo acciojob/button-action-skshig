@@ -4,6 +4,7 @@ import './../styles/App.css';
 const App = (props) => {
 let [visibile, setVisible] = useState(false)
 
+ 
   return (
     <div className="App" id="main">
       {/* // Do not alter the main div */}
@@ -13,7 +14,7 @@ let [visibile, setVisible] = useState(false)
       {
         visibile && 
         <p id="para" className="show">
-        "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+        Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy
         </p>
       }
     </div>
